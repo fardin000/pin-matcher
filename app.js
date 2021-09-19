@@ -58,13 +58,13 @@ function verifyPin(){
          // console.log('matched! YaY');
         // const successMassage = document.getElementById('notify-success');
         successMassage.style.display = "block";
-        failError.style.display = "none";
+        failError.style.display = "none"; //hide this 
         
     }
     else{
         // console.log('oops!');
         // const failError = document.getElementById('notify-fail');
-        successMassage.style.display = "none";
+        successMassage.style.display = "none"; //hide this
         failError.style.display = "block";
        
     }

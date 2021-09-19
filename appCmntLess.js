@@ -12,7 +12,6 @@ function getPin(){
     }
 }
 
-
 function generatePin(){
     const pin = getPin();
     document.getElementById('display-pin').value = pin;
